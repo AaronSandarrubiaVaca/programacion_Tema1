@@ -7,7 +7,7 @@ public class variables {
 		// Declaramos una variable
 		double importe;
 		//Declaracion   asignacion
-		double importe = 36.5;
+		 importe = 36.5;
 
 		
 		int cantidad = 5;
@@ -19,7 +19,7 @@ public class variables {
 		edad = 18;
 		
 		//Para numeros enteros usamos int
-		int edad = 18;
+		int edad2 = 18;
 		
 		//Para numeros decimales usamos double
 		double total = 100.5;
@@ -33,4 +33,6 @@ public class variables {
 		//Cuando un ejercicio nos pida que almacenemos
 		//Una letra,tambien usaremos String
 		String letra = "a";
+
+	}
 }
