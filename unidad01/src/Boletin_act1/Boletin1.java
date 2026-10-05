@@ -70,7 +70,7 @@ public class Boletin1 {
 //		System.out.println("Introduzca una cantidad de segundos");
 //		int segundos = scanner.nextInt();
 //		int horas = segundos / 3600;
-//		int minutos = segundos % 60;
+//		int minutos = (segundos /60) % 60;
 //		int segundosRes = segundos % 60;
 //		System.out.printf("Corresponde a %d horas %d minutos %d segundos",horas,minutos,segundosRes);
 //	
