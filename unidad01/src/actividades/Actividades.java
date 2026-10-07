@@ -35,15 +35,17 @@ public class Actividades {
 		
 		//Ejercicio 3
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Introduce la primera nota");
-		int primeraNota = scanner.nextInt();
-		System.out.println("Introduce la segunda nota");
-		int segundaNota = scanner.nextInt();
-		double media = (primeraNota + segundaNota)*1.0 /2;
-		System.out.printf("La media aritmetica es %.3f\n ",media);
-	
+//		scanner scanner = new scanner(system.in);
+//		system.out.println("introduce la primera nota");
+//		int primeranota = scanner.nextint();
+//		system.out.println("introduce la segunda nota");
+//		int segundanota = scanner.nextint();
+//		double media = (primeranota + segundanota)*1.0 /2;
+//		system.out.printf("la media aritmetica es %.3f\n ",media);
+//	
 	//ctrl + shift + o ==> importar automaticamente
+		
+		
 		
 		
 		
