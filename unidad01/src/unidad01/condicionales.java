@@ -162,7 +162,7 @@ public class condicionales {
 // 
 
 		// DIAPOSITIVA 114 (2.11)
-
+//
 //		Scanner scanner = new Scanner(System.in);
 //		System.out.println("Introduce un numero comprendido entre 0 a 9999");
 //		int numero = scanner.nextInt();
@@ -179,7 +179,7 @@ public class condicionales {
 //			System.out.println(Capicua ? "El numero es capicua" : "El numero no es capicua");
 //		} else if (numero <= 999) {			
 //			int centenas = numero / 100;
-//			int unidades = numero % 100;
+//			int unidades = numero % 10;
 //			boolean Capicua = centenas == unidades;
 //			System.out.println(Capicua ? "El numero es capicua" : "El numero no es capicua");
 //
@@ -242,20 +242,29 @@ public class condicionales {
 		// DIAPOSITIVA 115 (2.13)
 
 //		Scanner scanner = new Scanner(System.in);
+//		
 //		System.out.println("Introduce una cantidad de comida para los animales");
 //		double comidaDiaria = scanner.nextDouble();
 //		System.out.println("Introduce el numero de animales a alimentar");
 //		int numAnimales = scanner.nextInt();
 //		System.out.println("Introduce la cantidad de kilos por animal");
-//		double kilosPorAnimal = scanner.nextDouble();
-//		double disponibilidadAlimento = (comidaDiaria/numAnimales);
-//		boolean determinacionAlimento = (disponibilidadAlimento >= kilosPorAnimal);
+//		
+//		if (numAnimales != 0) {
+//			double kilosPorAnimal = scanner.nextDouble();
+//			double disponibilidadAlimento = (comidaDiaria/numAnimales);
+//			boolean determinacionAlimento = (disponibilidadAlimento >= kilosPorAnimal);
 //
-//		if (determinacionAlimento) {
-//			System.out.println("Tiene suficiente alimento para la cantidad de animales");
+//			if (determinacionAlimento) {
+//				System.out.println("Tiene suficiente alimento para la cantidad de animales");
+//			}else {
+//				System.out.printf("No tiene suficiente comida y la racion seria %.2f",disponibilidadAlimento);
+//			}
+//			
 //		}else {
-//			System.out.printf("No tiene suficiente comida y la racion seria %.2f",disponibilidadAlimento);
-//		}
+//				System.out.println("El numero de animales no puede ser 0");
+//		}	
+//		
+//		
 //		
 //
 //	}
@@ -377,7 +386,7 @@ public class condicionales {
 	}
 }
 
-		
+	
 		//DIAPOSITIVA (2.17)
 		
 		
